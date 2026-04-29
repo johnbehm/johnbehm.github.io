@@ -8,13 +8,13 @@ The mop head is connected to the handle via a double-pivoting joint, allowing fo
 
 The objective of this project was to reduce stress concentrations in this critical section through a geometric redesign, which would improve the durability and lifespan of the component.
 
-![Bona Mop Joint](../images/Bona Mop joint.JPG) ![CAD Model of Original Piece](../images/Handle Piece.png)
+![Bona Mop Joint](../images/Bona Mop joint.JPG) ![Discoloration and Creep](../images/Bona Mop discoloration.JPG)
 
 ## Engineering Analysis
 (text)
 
 ## CAD Model
-![CAD](../images/cad.png)
+![CAD Model of Original Piece](../images/Handle Piece.png)
 
 ## FEA Results
 ![FEA](../images/fea.png)
