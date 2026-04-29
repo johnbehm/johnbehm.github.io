@@ -18,15 +18,15 @@ The objective of this project was to reduce stress concentrations in this critic
 ![Side View](../images/Config 1.png)
 
 ## FEA Results
-![Stress in Original Configuration](../images/Config 1 VM Stress.webm)
+![Stress in Original Configuration](../images/Config 1 VM Stress.mp4)
 
 ## Iterations
 ![CAD Model of Configuration 2](../images/Config 2.png)
-![Stress in Configuration 2](../images/Config 2 VM Stress.webm)
+![Stress in Configuration 2](../images/Config 2 VM Stress.mp4)
 ![CAD Model of Configuration 3](../images/Config 3.png)
-![Stress in Configuration 3](../images/Config 3 VM Stress.webm)
+![Stress in Configuration 3](../images/Config 3 VM Stress.mp4)
 ![CAD Model of Configuration 4](../images/Config 4.png)
-![Stress in Configuration 4](../images/Config 4 VM Stress.webm)
+![Stress in Configuration 4](../images/Config 4 VM Stress.mp4)
 
 ## Results
 (text)
