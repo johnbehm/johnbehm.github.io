@@ -19,19 +19,17 @@ Based on standard stress concentration charts for a filleted bar in bending (D/d
 
 My initial hand calculations suggested that the stresses under typical forces will remain well below the material's yield strength, indicating that static failure is unlikely to be the primary cause of failure. Instead, the observed discoloration, creep, and cyclic nature of loading that occurs during mopping indicate that fatigue failure is more likely to occur.
 
-This analysis established that reducing local stress concentrations through a geometric redesign of the fillet radius would likely improve fatigue resistance and long-term durability without requiring major changes to the part geometry or manufacturing process.
+This analysis established that reducing local stress concentrations through a geometric redesign of the fillet radius would improve fatigue resistance and long-term durability without requiring major changes to the part geometry or manufacturing process.
 
 ## CAD Model & FEA Results
 ### Original Configuration - 5/128" fillet radius
 ![CAD Model of Original Piece](../images/Handle Piece.png)
 ![Side View](../images/Config 1.png)
 
-<img src="../images/Handle Piece.png" width="1280" style="display: inline-block;">
-<video width="1280" height="720" controls style="display: inline-block;">
+<video width="1280" height="720" controls>
   <source src="../images/Config 1 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 
 ## Iterations
 
