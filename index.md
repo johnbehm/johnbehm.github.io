@@ -1,6 +1,2 @@
-# John Behm
-
-Engineering Portfolio
-
-## Projects
+# Projects
 - [Mop Joint Redesign](projects/mop-redesign.md)
