@@ -21,14 +21,13 @@ My initial hand calculations suggested that the stresses under typical forces wi
 
 This analysis established that reducing local stress concentrations through a geometric redesign of the fillet radius would likely improve fatigue resistance and long-term durability without requiring major changes to the part geometry or manufacturing process.
 
-## CAD Model
+## CAD Model & FEA Results
 ### Original Configuration - 5/128" fillet radius
 ![CAD Model of Original Piece](../images/Handle Piece.png)
 ![Side View](../images/Config 1.png)
 
-## FEA Results
-### Original Configuration - 5/128" fillet radius
-<video width="1280" height="720" controls>
+<img src="../images/Handle Piece.png" width="1280" style="display: inline-block;">
+<video width="1280" height="720" controls style="display: inline-block;">
   <source src="../images/Config 1 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
