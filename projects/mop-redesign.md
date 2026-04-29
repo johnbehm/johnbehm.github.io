@@ -26,11 +26,20 @@ The objective of this project was to reduce stress concentrations in this critic
 
 ## Iterations
 ![CAD Model of Configuration 2](../images/Config 2.png)
-![Stress in Configuration 2](../images/Config 2 VM Stress.mp4)
+<video width="1280" height="720" controls>
+  <source src="../images/Config 2 VM Stress.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ![CAD Model of Configuration 3](../images/Config 3.png)
-![Stress in Configuration 3](../images/Config 3 VM Stress.mp4)
+<video width="1280" height="720" controls>
+  <source src="../images/Config 3 VM Stress.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ![CAD Model of Configuration 4](../images/Config 4.png)
-![Stress in Configuration 4](../images/Config 4 VM Stress.mp4)
+<video width="1280" height="720" controls>
+  <source src="../images/Config 4 VM Stress.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Results
 (text)
