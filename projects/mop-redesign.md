@@ -11,11 +11,20 @@ The objective of this project was to reduce stress concentrations in this critic
 ![Bona Mop Joint](../images/Bona Mop joint.JPG) ![Discoloration and Creep](../images/Bona Mop discoloration.JPG)
 
 ## Engineering Analysis
-(text)
+To better understand the root cause of failure, I modeled the failing part in Autodesk Fusion. As force is applied through the handle, the geometry creates a bending moment at the cantilevered section of the failing part. I applied a simplified loading case of 50 N at 45° to represent a typical mopping motion.
+
+![CAD Assembly](../images/Assembly Render 2.png)
+
+Based on standard stress concentration charts for a filleted bar in bending (D/d ≈ 3, r/d ≈ 0.16), the estimated stress concentration factor K ≈ 1.5. This indicates that local stresses at the fillet could be roughly 50% higher than the nominal bending stress.
+
+My initial hand calculations suggested that the stresses under typical forces will remain well below the material's yield strength, indicating that static failure is unlikely to be the primary cause of failure. Instead, the observed discoloration, creep, and cyclic nature of loading that occurs during mopping indicate that fatigue failure is more likely to occur.
+
+This analysis established that reducing local stress concentrations through a geometric redesign of the fillet radius would likely improve fatigue resistance and long-term durability without requiring major changes to the part geometry or manufacturing process.
 
 ## CAD Model
 ### Original Configuration - 5/128" fillet radius
-| ![CAD Model of Original Piece](../images/Handle Piece.png) | ![Side View](../images/Config 1.png) |
+![CAD Model of Original Piece](../images/Handle Piece.png)
+![Side View](../images/Config 1.png)
 
 ## FEA Results
 ### Original Configuration - 5/128" fillet radius
