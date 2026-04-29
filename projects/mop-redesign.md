@@ -14,8 +14,8 @@ The objective of this project was to reduce stress concentrations in this critic
 (text)
 
 ## CAD Model
+### Original Configuration - 5/128" fillet radius
 ![CAD Model of Original Piece](../images/Handle Piece.png)
-Original Configuration - $\frac{5}{128}$ inch fillet radius
 ![Side View](../images/Config 1.png)
 
 ## FEA Results
@@ -27,25 +27,25 @@ Original Configuration - $\frac{5}{128}$ inch fillet radius
 
 ## Iterations
 
-### Configuration 2
+### Configuration 2 - 1/16" fillet radius
 ![CAD Model of Configuration 2](../images/Config 2.png)
-Configuration 2 - $\frac{1}{16}$ inch fillet radius
+
 <video width="1280" height="720" controls>
   <source src="../images/Config 2 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### Configuration 3
+### Configuration 3 - 1/8" fillet radius
 ![CAD Model of Configuration 3](../images/Config 3.png)
-Configuration 3 - $\frac{1}{8}$ inch fillet radius
+
 <video width="1280" height="720" controls>
   <source src="../images/Config 3 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### Configuration 4
+### Configuration 4 - 1/4" fillet radius
 ![CAD Model of Configuration 4](../images/Config 4.png)
-Configuration 4 - $\frac{1}{4}$ inch fillet radius
+
 <video width="1280" height="720" controls>
   <source src="../images/Config 4 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
