@@ -15,10 +15,10 @@ The objective of this project was to reduce stress concentrations in this critic
 
 ## CAD Model
 ### Original Configuration - 5/128" fillet radius
-![CAD Model of Original Piece](../images/Handle Piece.png)
-![Side View](../images/Config 1.png)
+![CAD Model of Original Piece](../images/Handle Piece.png) ![Side View](../images/Config 1.png)
 
 ## FEA Results
+### Original Configuration - 5/128" fillet radius
 <video width="1280" height="720" controls>
   <source src="../images/Config 1 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
