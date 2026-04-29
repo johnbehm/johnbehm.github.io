@@ -26,6 +26,7 @@ Original Configuration - 5/128" fillet radius
 
 
 ## Iterations
+
 ###Configuration 2
 ![CAD Model of Configuration 2](../images/Config 2.png)
 Configuration 2 - 1/16" fillet radius
@@ -33,6 +34,7 @@ Configuration 2 - 1/16" fillet radius
   <source src="../images/Config 2 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 ###Configuration 3
 ![CAD Model of Configuration 3](../images/Config 3.png)
 Configuration 3 - 1/8" fillet radius
@@ -40,6 +42,7 @@ Configuration 3 - 1/8" fillet radius
   <source src="../images/Config 3 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 ###Configuration 4
 ![CAD Model of Configuration 4](../images/Config 4.png)
 Configuration 4 - 1/4" fillet radius
