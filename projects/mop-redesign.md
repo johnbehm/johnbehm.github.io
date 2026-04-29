@@ -18,7 +18,7 @@ The objective of this project was to reduce stress concentrations in this critic
 ![Side View](../images/Config 1.png)
 
 ## FEA Results
-![Stress in Original Configuration](../images/Config 1 VM Stress.mp4)
+[Stress in Original Configuration](https://github.com/user-attachments/assets/ea68c001-dd30-4d11-9a43-a389817ccc5d)
 
 ## Iterations
 ![CAD Model of Configuration 2](../images/Config 2.png)
