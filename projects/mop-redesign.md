@@ -15,12 +15,18 @@ The objective of this project was to reduce stress concentrations in this critic
 
 ## CAD Model
 ![CAD Model of Original Piece](../images/Handle Piece.png)
+![Side View](../images/Config 1.png)
 
 ## FEA Results
-![FEA](../images/fea.png)
+![Stress in Original Configuration](../images/Config 1 VM Stress.webm)
 
 ## Iterations
-(text + images)
+![CAD Model of Configuration 2](../images/Config 2.png)
+![Stress in Configuration 2](../images/Config 2 VM Stress.webm)
+![CAD Model of Configuration 3](../images/Config 3.png)
+![Stress in Configuration 3](../images/Config 3 VM Stress.webm)
+![CAD Model of Configuration 4](../images/Config 4.png)
+![Stress in Configuration 4](../images/Config 4 VM Stress.webm)
 
 ## Results
 (text)
