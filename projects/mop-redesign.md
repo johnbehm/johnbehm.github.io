@@ -28,7 +28,6 @@ This analysis established that reducing local stress concentrations through a ge
 
 <video width="1280" height="720" controls>
   <source src="../images/Config 1 VM Stress.mp4" type="video/mp4">
-  
 </video>
 
 ## Iterations
