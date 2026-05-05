@@ -26,7 +26,7 @@ This analysis established that reducing local stress concentrations through a ge
 <div style="display: flex; gap: 20px;">
 
   <div style="flex: 1; text-align: center;">
-    <img src="../images/Handle Piece.png" style="width: 100%;">
+    <img src="../images/Config 1.png" style="width: 100%;">
     <p><em>Original Configuration CAD model highlighting critical region</em></p>
   </div>
 
