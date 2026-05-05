@@ -55,6 +55,8 @@ This analysis established that reducing local stress concentrations through a ge
     <p><em>Configuration 2 FEA simulation</em></p>
   </div>
 
+</div>
+
 ### Configuration 3 - 1/8" fillet radius
 <div style="display: flex; gap: 20px;">
 
@@ -70,6 +72,8 @@ This analysis established that reducing local stress concentrations through a ge
     <p><em>Configuration 3 FEA simulation</em></p>
   </div>
 
+</div>
+
 ### Configuration 4 - 1/4" fillet radius
 <div style="display: flex; gap: 20px;">
 
@@ -84,6 +88,8 @@ This analysis established that reducing local stress concentrations through a ge
     </video>
     <p><em>Configuration 4 FEA simulation</em></p>
   </div>
+
+</div>
 
 ## Results
 (text)
