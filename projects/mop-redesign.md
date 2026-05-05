@@ -8,7 +8,8 @@ The mop head is connected to the handle via a double-pivoting joint, allowing fo
 
 The objective of this project was to reduce stress concentrations in this critical section through a geometric redesign, which would improve the durability and lifespan of the component.
 
-![Bona Mop Joint](../assets/images/Bona Mop joint.JPG) ![Discoloration and Creep](../assets/images/Bona Mop discoloration.JPG)
+![Bona Mop Joint](../assets/images/Bona Mop joint.JPG)
+![Discoloration and Creep](../assets/images/Bona Mop discoloration.JPG)
 
 ## Engineering Analysis
 To better understand the root cause of failure, I modeled the failing part in Autodesk Fusion. As force is applied through the handle, the geometry creates a bending moment at the cantilevered section of the failing part. I applied a simplified loading case of 50 N at 45° to represent a typical mopping motion.
