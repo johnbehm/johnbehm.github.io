@@ -46,7 +46,7 @@ This analysis established that reducing local stress concentrations through a ge
 ![CAD Model of Configuration 2](../images/Config 2.png)
 
 <video width="1280" height="720" controls>
-  <source src="../assets/images/Config 2 VM Stress.mp4" type="video/mp4">
+  <source src="../assets/videos/Config 2 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -54,7 +54,7 @@ This analysis established that reducing local stress concentrations through a ge
 ![CAD Model of Configuration 3](../images/Config 3.png)
 
 <video width="1280" height="720" controls>
-  <source src="../assets/images/Config 3 VM Stress.mp4" type="video/mp4">
+  <source src="../assets/videos/Config 3 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -62,7 +62,7 @@ This analysis established that reducing local stress concentrations through a ge
 ![CAD Model of Configuration 4](../images/Config 4.png)
 
 <video width="1280" height="720" controls>
-  <source src="../assets/images/Config 4 VM Stress.mp4" type="video/mp4">
+  <source src="../assets/videos/Config 4 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
