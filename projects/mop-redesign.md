@@ -22,49 +22,68 @@ My initial hand calculations suggested that the stresses under typical forces wi
 
 This analysis established that reducing local stress concentrations through a geometric redesign of the fillet radius would improve fatigue resistance and long-term durability without requiring major changes to the part geometry or manufacturing process.
 
-## CAD Model & FEA Results
+## CAD Models & FEA Results
 ### Original Configuration - 5/128" fillet radius
 <div style="display: flex; gap: 20px;">
 
   <div style="flex: 1; text-align: center;">
     <img src="../assets/images/Config 1.png" style="width: 100%;">
-    <p><em>Original Configuration CAD model highlighting critical region</em></p>
+    <p><em>Original Configuration CAD model</em></p>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <video controls style="width: 100%;">
       <source src="../assets/videos/Config 1 VM Stress.mp4" type="video/mp4">
     </video>
-    <p><em>FEA simulation showing stress concentration at fillet</em></p>
+    <p><em>Original Configuration FEA simulation</em></p>
   </div>
 
 </div>
 
-## Iterations
-
 ### Configuration 2 - 1/16" fillet radius
-![CAD Model of Configuration 2](../images/Config 2.png)
+<div style="display: flex; gap: 20px;">
 
-<video width="1280" height="720" controls>
-  <source src="../assets/videos/Config 2 VM Stress.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+  <div style="flex: 1; text-align: center;">
+    <img src="../assets/images/Config 2.png" style="width: 100%;">
+    <p><em>Configuration 2 CAD model</em></p>
+  </div>
+
+  <div style="flex: 1; text-align: center;">
+    <video controls style="width: 100%;">
+      <source src="../assets/videos/Config 2 VM Stress.mp4" type="video/mp4">
+    </video>
+    <p><em>Configuration 2 FEA simulation</em></p>
+  </div>
 
 ### Configuration 3 - 1/8" fillet radius
-![CAD Model of Configuration 3](../images/Config 3.png)
+<div style="display: flex; gap: 20px;">
 
-<video width="1280" height="720" controls>
-  <source src="../assets/videos/Config 3 VM Stress.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+  <div style="flex: 1; text-align: center;">
+    <img src="../assets/images/Config 3.png" style="width: 100%;">
+    <p><em>Configuration 3 CAD model</em></p>
+  </div>
+
+  <div style="flex: 1; text-align: center;">
+    <video controls style="width: 100%;">
+      <source src="../assets/videos/Config 3 VM Stress.mp4" type="video/mp4">
+    </video>
+    <p><em>Configuration 3 FEA simulation</em></p>
+  </div>
 
 ### Configuration 4 - 1/4" fillet radius
-![CAD Model of Configuration 4](../images/Config 4.png)
+<div style="display: flex; gap: 20px;">
 
-<video width="1280" height="720" controls>
-  <source src="../assets/videos/Config 4 VM Stress.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+  <div style="flex: 1; text-align: center;">
+    <img src="../assets/images/Config 4.png" style="width: 100%;">
+    <p><em>Configuration 4 CAD model</em></p>
+  </div>
+
+  <div style="flex: 1; text-align: center;">
+    <video controls style="width: 100%;">
+      <source src="../assets/videos/Config 4 VM Stress.mp4" type="video/mp4">
+    </video>
+    <p><em>Configuration 4 FEA simulation</em></p>
+  </div>
 
 ## Results
 (text)
