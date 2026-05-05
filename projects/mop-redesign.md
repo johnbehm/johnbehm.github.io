@@ -8,12 +8,12 @@ The mop head is connected to the handle via a double-pivoting joint, allowing fo
 
 The objective of this project was to reduce stress concentrations in this critical section through a geometric redesign, which would improve the durability and lifespan of the component.
 
-![Bona Mop Joint](../images/Bona Mop joint.JPG) ![Discoloration and Creep](../images/Bona Mop discoloration.JPG)
+![Bona Mop Joint](../assets/images/Bona Mop joint.JPG) ![Discoloration and Creep](../assets/images/Bona Mop discoloration.JPG)
 
 ## Engineering Analysis
 To better understand the root cause of failure, I modeled the failing part in Autodesk Fusion. As force is applied through the handle, the geometry creates a bending moment at the cantilevered section of the failing part. I applied a simplified loading case of 50 N at 45° to represent a typical mopping motion.
 
-![CAD Assembly](../images/Assembly Render 2.png)
+![CAD Assembly](../assets/images/Assembly Render 2.png)
 
 Based on standard stress concentration charts for a filleted bar in bending (D/d ≈ 3, r/d ≈ 0.16), the estimated stress concentration factor K ≈ 1.5. This indicates that local stresses at the fillet could be roughly 50% higher than the nominal bending stress.
 
@@ -26,13 +26,13 @@ This analysis established that reducing local stress concentrations through a ge
 <div style="display: flex; gap: 20px;">
 
   <div style="flex: 1; text-align: center;">
-    <img src="../images/Config 1.png" style="width: 100%;">
+    <img src="../assets/images/Config 1.png" style="width: 100%;">
     <p><em>Original Configuration CAD model highlighting critical region</em></p>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <video controls style="width: 100%;">
-      <source src="../images/Config 1 VM Stress.mp4" type="video/mp4">
+      <source src="../assets/videos/Config 1 VM Stress.mp4" type="video/mp4">
     </video>
     <p><em>FEA simulation showing stress concentration at fillet</em></p>
   </div>
@@ -45,7 +45,7 @@ This analysis established that reducing local stress concentrations through a ge
 ![CAD Model of Configuration 2](../images/Config 2.png)
 
 <video width="1280" height="720" controls>
-  <source src="../images/Config 2 VM Stress.mp4" type="video/mp4">
+  <source src="../assets/images/Config 2 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -53,7 +53,7 @@ This analysis established that reducing local stress concentrations through a ge
 ![CAD Model of Configuration 3](../images/Config 3.png)
 
 <video width="1280" height="720" controls>
-  <source src="../images/Config 3 VM Stress.mp4" type="video/mp4">
+  <source src="../assets/images/Config 3 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -61,7 +61,7 @@ This analysis established that reducing local stress concentrations through a ge
 ![CAD Model of Configuration 4](../images/Config 4.png)
 
 <video width="1280" height="720" controls>
-  <source src="../images/Config 4 VM Stress.mp4" type="video/mp4">
+  <source src="../assets/images/Config 4 VM Stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
