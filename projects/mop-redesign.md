@@ -8,7 +8,7 @@ The mop head is connected to the handle via a double-pivoting joint, allowing fo
 
 The objective of this project was to reduce stress concentrations in this critical section through a geometric redesign, which would improve the durability and lifespan of the component.
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 8px;">
 
   <div style="flex: 1; text-align: center;">
     <img src="../assets/images/Bona Mop joint.JPG" style="width: 100%;">
@@ -33,8 +33,7 @@ This analysis established that reducing local stress concentrations through a ge
 
 ## CAD Models & FEA Results
 ### Original Configuration - 5/128" fillet radius
-
-<div style="display: flex; gap: 20px; align-items: stretch;">
+<div style="display: flex; gap: 8px; align-items: stretch;">
 
   <div style="flex: 0.8; text-align: center;">
     <img src="../assets/images/Config 1.png"
@@ -42,7 +41,7 @@ This analysis established that reducing local stress concentrations through a ge
     <p><em>Original Configuration CAD model</em></p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
+  <div style="flex: 1.2; text-align: center;">
     <video controls
            style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 1 VM Stress.mp4" type="video/mp4">
@@ -53,15 +52,17 @@ This analysis established that reducing local stress concentrations through a ge
 </div>
 
 ### Configuration 2 - 1/16" fillet radius
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 8px; align-items: stretch;">
 
-  <div style="flex: 1; text-align: center;">
-    <img src="../assets/images/Config 2.png" style="width: 100%;">
+  <div style="flex: 0.8; text-align: center;">
+    <img src="../assets/images/Config 2.png"
+         style="width: 100%; height: 100%; object-fit: contain;">
     <p><em>Configuration 2 CAD model</em></p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <video controls style="width: 100%;">
+  <div style="flex: 1.2; text-align: center;">
+    <video controls
+           style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 2 VM Stress.mp4" type="video/mp4">
     </video>
     <p><em>Configuration 2 FEA simulation</em></p>
@@ -70,15 +71,17 @@ This analysis established that reducing local stress concentrations through a ge
 </div>
 
 ### Configuration 3 - 1/8" fillet radius
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 8px; align-items: stretch;">
 
-  <div style="flex: 1; text-align: center;">
-    <img src="../assets/images/Config 3.png" style="width: 100%;">
+  <div style="flex: 0.8; text-align: center;">
+    <img src="../assets/images/Config 3.png"
+         style="width: 100%; height: 100%; object-fit: contain;">
     <p><em>Configuration 3 CAD model</em></p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <video controls style="width: 100%;">
+  <div style="flex: 1.2; text-align: center;">
+    <video controls
+           style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 3 VM Stress.mp4" type="video/mp4">
     </video>
     <p><em>Configuration 3 FEA simulation</em></p>
@@ -87,15 +90,17 @@ This analysis established that reducing local stress concentrations through a ge
 </div>
 
 ### Configuration 4 - 1/4" fillet radius
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 8px; align-items: stretch;">
 
-  <div style="flex: 1; text-align: center;">
-    <img src="../assets/images/Config 4.png" style="width: 100%;">
+  <div style="flex: 0.8; text-align: center;">
+    <img src="../assets/images/Config 4.png"
+         style="width: 100%; height: 100%; object-fit: contain;">
     <p><em>Configuration 4 CAD model</em></p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <video controls style="width: 100%;">
+  <div style="flex: 1.2; text-align: center;">
+    <video controls
+           style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 4 VM Stress.mp4" type="video/mp4">
     </video>
     <p><em>Configuration 4 FEA simulation</em></p>
