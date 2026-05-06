@@ -42,7 +42,7 @@ This analysis established that reducing local stress concentrations through a ge
   </div>
 
   <div style="flex: 1.2; text-align: center;">
-    <video controls
+    <video controls playsinline webkit-playsinline
            style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 1 VM Stress.mp4" type="video/mp4">
     </video>
@@ -61,7 +61,7 @@ This analysis established that reducing local stress concentrations through a ge
   </div>
 
   <div style="flex: 1.2; text-align: center;">
-    <video controls
+    <video controls playsinline webkit-playsinline
            style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 2 VM Stress.mp4" type="video/mp4">
     </video>
@@ -80,7 +80,7 @@ This analysis established that reducing local stress concentrations through a ge
   </div>
 
   <div style="flex: 1.2; text-align: center;">
-    <video controls
+    <video controls playsinline webkit-playsinline
            style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 3 VM Stress.mp4" type="video/mp4">
     </video>
@@ -99,7 +99,7 @@ This analysis established that reducing local stress concentrations through a ge
   </div>
 
   <div style="flex: 1.2; text-align: center;">
-    <video controls
+    <video controls playsinline webkit-playsinline
            style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 4 VM Stress.mp4" type="video/mp4">
     </video>
