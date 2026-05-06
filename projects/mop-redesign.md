@@ -33,15 +33,18 @@ This analysis established that reducing local stress concentrations through a ge
 
 ## CAD Models & FEA Results
 ### Original Configuration - 5/128" fillet radius
-<div style="display: flex; gap: 20px;">
 
-  <div style="flex: 1; text-align: center;">
-    <img src="../assets/images/Config 1.png" style="width: 100%;">
+<div style="display: flex; gap: 20px; align-items: stretch;">
+
+  <div style="flex: 0.8; text-align: center;">
+    <img src="../assets/images/Config 1.png"
+         style="width: 100%; height: 100%; object-fit: contain;">
     <p><em>Original Configuration CAD model</em></p>
   </div>
 
   <div style="flex: 1; text-align: center;">
-    <video controls style="width: 100%;">
+    <video controls
+           style="width: 100%; height: 100%; object-fit: contain;">
       <source src="../assets/videos/Config 1 VM Stress.mp4" type="video/mp4">
     </video>
     <p><em>Original Configuration FEA simulation</em></p>
