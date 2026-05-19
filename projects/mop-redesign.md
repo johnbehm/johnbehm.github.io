@@ -13,20 +13,7 @@ I investigated the root cause and developed a redesigned geometry to reduce loca
 
 
 ## Problem Definition
-## Problem Definition
-
 The mop head is connected to the handle through a plastic double-pivoting joint that allows multi-axis motion during use. Failure occurred at the protruding section where a pin connects the handle joint to the intermediate assembly.
-
-Key observations:
-- Thin cantilevered section (~1/4")
-- Small fillet radius (~5/128")
-- Visible discoloration and deformation (creep)
-- Repeated failure across multiple units
-
-This sharp geometric transition creates localized stress under bending loads during normal mopping motion. The repeated loading and stress concentration likely contributed to progressive material degradation and eventual failure.
-
-### Project Objective
-Reduce local stress concentrations through geometric redesign while maintaining the original functionality and manufacturability of the part.
 
 <div style="display: flex; gap: 8px; margin-bottom: 10px;">
 
@@ -39,6 +26,19 @@ Reduce local stress concentrations through geometric redesign while maintaining 
   </div>
 
 </div>
+
+Key observations:
+- Thin cantilevered section (~1/4")
+- Small fillet radius (~5/128")
+- Visible discoloration and deformation (creep)
+- Repeated failure across multiple units
+
+This sharp geometric transition creates localized stress under bending loads during normal mopping motion. The repeated loading and stress concentration likely contributed to progressive material degradation and eventual failure.
+
+### Project Objective
+Reduce local stress concentrations through geometric redesign while maintaining the original functionality and manufacturability of the part.
+
+
 
 
 ## Engineering Analysis
