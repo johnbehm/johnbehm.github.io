@@ -1,5 +1,5 @@
 # Mop Joint Redesign
-**Tools/Skills:** Autodesk Fusion | FEA | Mechanical Design | Failure Analysis | 3D Printing
+**Tools & Skills:** Autodesk Fusion | FEA | Mechanical Design | Failure Analysis | 3D Printing
 
 **Key Results**
 - 61% reduction in peak Von Mises stress
