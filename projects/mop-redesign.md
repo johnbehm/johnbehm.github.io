@@ -114,7 +114,12 @@ As the fillet radius increased, the reduction in peak stress began to taper off.
 
 ## Experimental Validation
 
-To supplement the analytical and FEA results, I conducted a simple comparative load test using 3D printed versions of both the original and redesigned joint geometries.
+To supplement the analytical and FEA results, I conducted a comparative load test using 3D printed versions of the original and redesigned geometries.
+
+### Test Setup
+- Load applied through pivot hole using suspended bucket
+- Sand incrementally added until structural failure occurred
+- Consistent loading method used for both configurations
 
 <div style="display: flex; gap: 8px; margin-bottom: 30px;">
 
@@ -130,9 +135,7 @@ To supplement the analytical and FEA results, I conducted a simple comparative l
 
 </div>
 
-I assembled a test rig by suspending a bucket off the end of a bolt secured to the printed part through the pivot hole. I then gradually added sand until structural failure occurred.
-
-While the printed components do not perfectly replicate the material properties or manufacturing characteristics of the original injection-molded HDPE part, the experiment provided a useful comparative evaluation between the two geometries under consistent loading conditions.
+While the printed parts did not perfectly replicate the material properties or manufacturing characteristics of the original injection-molded HDPE component, the experiment provided a useful comparative evaluation between the two geometries.
 
 ### Original Configuration Test
 
@@ -170,7 +173,7 @@ The original configuration withstood about 9 pounds of sand in the bucket before
 
 Configuration 4 withstood about 10 pounds of sand in the bucket before failing.
 
-The redesigned configuration with the increased fillet radius sustained approximately 10% greater load before failure compared to the original geometry. Although the real-world failure mechanism of my mop was fatigue rather than static failure, the experiment still supports the underlying design principle that reducing stress concentrations improves structural performance and durability.
+The redesigned configuration sustained approximately 11% greater load before failure. Although the real-world failure mechanism was fatigue-related rather than static failure, the experiment still supports the underlying design principle that reducing stress concentrations improves structural performance and durability.
 
 ### Future Experimental Improvements
 
