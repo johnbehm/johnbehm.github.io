@@ -1,12 +1,32 @@
 # Mop Joint Redesign
+**Tools:** Autodesk Fusion | FEA | Mechanical Design | Failure Analysis | 3D Printing
 
-## Overview 
-The Bona mop is used for cleaning and maintaining hardwood flooring. After just a couple of years, my first mop failed at a thin, filleted section near the joint between the handle and mop head, and now my second unit is showing similar signs of expected failure. I investigated the root cause and developed a redesigned geometry to reduce stress concentrations and improve durability. Using CAD modeling and finite element analysis, I evaluated the original design and iteratively refined the model, achieving over a 60% reduction in peak stress.
+**Key Results**
+- 61% reduction in peak Von Mises stress
+- ~11% increase in experimental failure load
+- Improved durability through fillet radius redesign
+
+## Overview
+The Bona hardwood floor mop uses a double-pivoting joint to connect the handle to the mop head. After repeated use, my first mop failed at a thin, filleted section near the joint, and my replacement unit began showing similar signs of expected failure.
+
+I investigated the root cause and developed a redesigned geometry to reduce local stress concentrations and improve durability. Using CAD modeling and finite element analysis (FEA), I evaluated the original design and iteratively refined the geometry, achieving over a 60% reduction in peak stress.
+
 
 ## Problem Definition
-The mop head is connected to the handle via a double-pivoting joint, allowing for multi-axis motion. The failure occurred in the plastic component at the end of the handle, specifically at the protruding section where a pin connects it to the intermediate joint piece. This section is relatively thin (~1/4") with a small fillet radius (~5/128") at its base. This sharp transition creates a stress concentration under the bending loads applied during typical use. This repeated loading and stress concentration led to visible signs of material degradation, including discoloration and deformation (creep). Since my replacement mop is experiencing the same symptoms as my first mop, this suggests a design flaw rather than an isolated incident.
+## Problem Definition
 
-The objective of this project was to reduce stress concentrations in this critical section through a geometric redesign, which would improve the durability and lifespan of the component.
+The mop head is connected to the handle through a plastic double-pivoting joint that allows multi-axis motion during use. Failure occurred at the protruding section where a pin connects the handle joint to the intermediate assembly.
+
+Key observations:
+- Thin cantilevered section (~1/4")
+- Small fillet radius (~5/128")
+- Visible discoloration and deformation (creep)
+- Repeated failure across multiple units
+
+This sharp geometric transition creates localized stress under bending loads during normal mopping motion. The repeated loading and stress concentration likely contributed to progressive material degradation and eventual failure.
+
+### Project Objective
+Reduce local stress concentrations through geometric redesign while maintaining the original functionality and manufacturability of the part.
 
 <div style="display: flex; gap: 8px; margin-bottom: 10px;">
 
@@ -20,19 +40,25 @@ The objective of this project was to reduce stress concentrations in this critic
 
 </div>
 
+
 ## Engineering Analysis
-To better understand the root cause of failure, I modeled the failing part in Autodesk Fusion. As force is applied through the handle, the geometry creates a bending moment at the cantilevered section. I applied a simplified loading case assuming a mopping force of 50 N at 45°, resulting in a bending moment of 0.2 N*m at the joint.
+To better understand the root cause of failure, I modeled the original joint geometry in Autodesk Fusion and evaluated the loading conditions experienced during normal use.
 
 ![CAD Assembly](../assets/images/Assembly with annotations.png)
 
-Based on standard stress concentration charts for a filleted bar in bending (D/d ≈ 3, r/d ≈ 0.16), the estimated stress concentration factor K ≈ 1.5. This indicates that local stresses at the fillet could be roughly 50% higher than the nominal bending stress.
+Assumptions:
+- Mopping force: ~50 N
+- Force angle: ~45°
+- Resulting bending moment at joint: ~0.2 N·m
 
-My initial hand calculations suggested that the stresses under typical forces will remain well below the material's yield strength, indicating that static failure is unlikely to be the primary cause of failure. Instead, the observed discoloration, creep, and cyclic nature of loading that occurs during mopping indicate that fatigue failure is more likely to occur.
+The cantilevered geometry creates a localized bending stress at the filleted transition near the pivot connection. Based on standard stress concentration charts for a filleted bar in bending (D/d ≈ 3, r/d ≈ 0.16), the estimated stress concentration factor was approximately K ≈ 1.5.
 
-This analysis established that reducing local stress concentrations through a geometric redesign of the fillet radius would improve fatigue resistance and long-term durability without requiring major changes to the part geometry or manufacturing process.
+Initial hand calculations suggested that stresses remained below the material’s yield strength under typical loading conditions, indicating that immediate static failure was unlikely. Instead, the observed creep, discoloration, and cyclic loading during use suggest that fatigue-related failure was more likely.
+
+This analysis indicated that increasing the fillet radius would reduce local stress concentrations and improve long-term durability without major changes to the overall geometry or manufacturing process.
+
 
 ## CAD Models & FEA Results
-
 I modeled the joint component based on measurements of the original part. This model was used as the baseline for the analysis and design iterations. As is observed in the FEA analyses below, the cantilevered geometry demonstrates a clear stress concentration scenario, where abrupt changes in cross-section amplify local stresses under bending. As the fillet radius increases, the transition in cross-section becomes smoother, resulting in smaller stress concentrations.
 
 ### Original Configuration - 5/128" fillet radius
