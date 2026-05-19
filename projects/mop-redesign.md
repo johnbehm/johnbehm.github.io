@@ -153,8 +153,6 @@ While the printed parts did not perfectly replicate the material properties or m
 
 </div>
 
-The original configuration withstood about 9 pounds of sand in the bucket before failing.
-
 ### Configuration 4 Test
 
 <div style="display: flex; gap: 8px; margin-bottom: 30px;">
@@ -171,7 +169,11 @@ The original configuration withstood about 9 pounds of sand in the bucket before
 
 </div>
 
-Configuration 4 withstood about 10 pounds of sand in the bucket before failing.
+| Configuration | Failure Load |
+|---|---|
+| Original Geometry | ~9 lb |
+| Redesigned Geometry | ~10 lb |
+| Improvement | ~11% |
 
 The redesigned configuration sustained approximately 11% greater load before failure. Although the real-world failure mechanism was fatigue-related rather than static failure, the experiment still supports the underlying design principle that reducing stress concentrations improves structural performance and durability.
 
