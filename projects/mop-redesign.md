@@ -179,7 +179,10 @@ The redesigned configuration sustained approximately 11% greater load before fai
 
 ### Future Experimental Improvements
 
-Future testing could better replicate real-world operating conditions through cyclic fatigue loading rather than static yield testing alone. Additional improvements may include using injection-molded test parts with material properties closer to the original HDPE component, as well as incorporating strain or displacement measurements to further validate analytical and FEA predictions.
+Future testing could better replicate real-world operating conditions through:
+- Cyclic fatigue loading instead of static yield testing
+- Injection-molded test parts to closer match material properties
+- Incorporate strain/displacement measurements to further validate analytical and FEA predictions
 
 ## Key Takeaways
 
