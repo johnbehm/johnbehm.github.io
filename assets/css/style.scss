@@ -2,6 +2,20 @@
 ---
 
 @import 'jekyll-theme-architect';
+
 .inner {
   max-width: 1200px;
+}
+
+#main-content {
+  width: 80%;
+}
+
+aside#sidebar {
+  width: 16%;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
 }
