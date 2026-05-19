@@ -39,8 +39,6 @@ This sharp geometric transition creates localized stress under bending loads dur
 Reduce local stress concentrations through geometric redesign while maintaining the original functionality and manufacturability of the part.
 
 
-
-
 ## Engineering Analysis
 To better understand the root cause of failure, I modeled the original joint geometry in Autodesk Fusion and evaluated the loading conditions experienced during normal use.
 
@@ -59,9 +57,20 @@ This analysis indicated that increasing the fillet radius would reduce local str
 
 
 ## CAD Models & FEA Results
-I modeled the joint component based on measurements of the original part. This model was used as the baseline for the analysis and design iterations. As is observed in the FEA analyses below, the cantilevered geometry demonstrates a clear stress concentration scenario, where abrupt changes in cross-section amplify local stresses under bending. As the fillet radius increases, the transition in cross-section becomes smoother, resulting in smaller stress concentrations.
+
+I recreated the original joint geometry based on measurements of the physical component and used the model as the baseline for analysis and redesign iterations.
+
+The thin cantilevered section and small fillet radius created a clear localized stress region under bending loads. Increasing the fillet radius produced a smoother transition in cross-section and reduced peak stress concentrations.
+
+| Configuration | Fillet Radius | Peak Von Mises Stress | Stress Reduction |
+|---|---|---|---|
+| Original | 5/128" | 1.66 MPa | — |
+| Configuration 2 | 1/16" | 1.45 MPa | 13% |
+| Configuration 3 | 1/8" | 0.84 MPa | 49% |
+| Configuration 4 | 1/4" | 0.65 MPa | 61% |
 
 ### Original Configuration - 5/128" fillet radius
+The original geometry produced a peak Von Mises stress of approximately 1.66 MPa (240 psi) near the filleted transition at the base of the cantilevered section.
 <div style="display: flex; gap: 8px; align-items: stretch; margin-bottom: 80px;">
 
   <div style="flex: 0.8; text-align: center;">
@@ -80,51 +89,8 @@ I modeled the joint component based on measurements of the original part. This m
 
 </div>
 
-The original configuration has a fillet radius of 5/128". Under the simulated loading conditions, the resulting Von Mises stress peaks at around 1.66 MPa (240 psi). The estimated yield strength of HDPE typically ranges from about 18 - 30 MPa (2600 - 4500 psi).
-
-### Configuration 2 - 1/16" fillet radius
-<div style="display: flex; gap: 8px; align-items: stretch; margin-bottom: 80px;">
-
-  <div style="flex: 0.8; text-align: center;">
-    <img src="../assets/images/Config 2.png"
-         style="width: 100%; height: 100%; object-fit: contain;">
-    <p><em>Configuration 2 CAD model</em></p>
-  </div>
-
-  <div style="flex: 1.2; text-align: center;">
-    <video controls playsinline webkit-playsinline
-           style="width: 100%; height: 100%; object-fit: contain;">
-      <source src="../assets/videos/Config 2 VM Stress.mp4" type="video/mp4">
-    </video>
-    <p><em>Configuration 2 FEA simulation</em></p>
-  </div>
-
-</div>
-
-The second configuration has a fillet radius of 1/16". Under the same loading conditions, the resulting Von Mises stress peaks at around 1.45 MPa (210 psi). This is a reduction of approximately 13%.
-
-### Configuration 3 - 1/8" fillet radius
-<div style="display: flex; gap: 8px; align-items: stretch; margin-bottom: 80px;">
-
-  <div style="flex: 0.8; text-align: center;">
-    <img src="../assets/images/Config 3.png"
-         style="width: 100%; height: 100%; object-fit: contain;">
-    <p><em>Configuration 3 CAD model</em></p>
-  </div>
-
-  <div style="flex: 1.2; text-align: center;">
-    <video controls playsinline webkit-playsinline
-           style="width: 100%; height: 100%; object-fit: contain;">
-      <source src="../assets/videos/Config 3 VM Stress.mp4" type="video/mp4">
-    </video>
-    <p><em>Configuration 3 FEA simulation</em></p>
-  </div>
-
-</div>
-
-The third configuration has a fillet radius of 1/8". Under the same loading conditions, the resulting Von Mises stress peaks at around 0.84 MPa (122 psi). This is a reduction of approximately 49%.
-
 ### Configuration 4 - 1/4" fillet radius
+Increasing the fillet radius to 1/4" reduced the peak Von Mises stress to approximately 0.65 MPa (94 psi), representing a 61% reduction relative to the original geometry.
 <div style="display: flex; gap: 8px; align-items: stretch; margin-bottom: 80px;">
 
   <div style="flex: 0.8; text-align: center;">
@@ -143,9 +109,8 @@ The third configuration has a fillet radius of 1/8". Under the same loading cond
 
 </div>
 
-The fourth configuration has a fillet radius of 1/4". Under the same loading conditions, the resulting Von Mises stress peaks at around 0.65 MPa (94 psi). This is a reduction of approximately 61%.
+As the fillet radius increased, the reduction in peak stress began to taper off. Excessively large fillets would eventually interfere with adjacent geometry and limit the joint’s range of motion.
 
-While increasing the fillet radius significantly reduced local stress, the returns in stress reduction start to slow down as the fillet grows. Also, excessively large fillets would eventually interfere with the adjacent geometry and prevent the joint from having its full range of motion.
 
 ## Experimental Validation
 
