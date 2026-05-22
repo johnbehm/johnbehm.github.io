@@ -40,3 +40,4 @@ I enjoy projects that combine analytical thinking with physical design and exper
 # Projects
 - [Consumer Product Design Improvement - Mop Joint Redesign](projects/mop-redesign.md)
 - [Museum Exhibit Revamp - Water Cube](projects/water-cube.md)
+- [Rocket Launch & Trajectory Analysis](projects/rocket-trajectory.md)
