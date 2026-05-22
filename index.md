@@ -11,15 +11,28 @@ I enjoy projects that combine analytical thinking with physical design and exper
 
 <div style="margin-top: 20px; margin-bottom: 30px;">
 
-  <a href="https://www.linkedin.com/in/johnbehm/"
+   <a href="https://www.linkedin.com/in/johnbehm/"
      target="_blank"
-     style="margin-right: 15px;">
+     style="display: inline-block;
+            padding: 10px 18px;
+            margin-right: 10px;
+            background-color: #0077b5;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;">
     LinkedIn
   </a>
 
-  <a href="/assets/John_Behm_Resume.pdf"
-     target="_blank">
-    Resume PDF
+   <a href="/assets/John_Behm_Resume.pdf"
+     target="_blank"
+     style="display: inline-block;
+            padding: 10px 18px;
+            margin-right: 10px;
+            background-color: #0077b5;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;">
+    Resume
   </a>
 
 </div>
