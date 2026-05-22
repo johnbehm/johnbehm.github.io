@@ -23,7 +23,7 @@ I enjoy projects that combine analytical thinking with physical design and exper
     LinkedIn
   </a>
 
-   <a href="/assets/John_Behm_Resume.pdf"
+   <a href="/assets/documents/John_Behm_Resume.pdf"
      target="_blank"
      style="display: inline-block;
             padding: 10px 18px;
