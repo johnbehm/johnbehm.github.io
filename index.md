@@ -38,4 +38,5 @@ I enjoy projects that combine analytical thinking with physical design and exper
 </div>
 
 # Projects
-- [Consumer Product Design Improvement](projects/mop-redesign.md)
+- [Consumer Product Design Improvement - Mop Joint Redesign](projects/mop-redesign.md)
+- [Museum Exhibit Revamp - Water Cube](projects/water-cube.md)
