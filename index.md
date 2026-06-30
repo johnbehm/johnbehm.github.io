@@ -3,9 +3,7 @@ title: John Behm Engineering Portfolio
 ---
 
 # About Me
-I am an engineer with a background in aerospace and mechanical engineering, holding a B.S. in Engineering Science and an M.S. in Aerospace Engineering. My interests are centered around mechanical design, testing, and hands-on problem solving.
-
-After graduating, I spent several years teaching tennis before returning to pursue engineering full-time. I currently volunteer at a local children’s science museum, where I am helping repair, redesign, and prototype exhibit components.
+I am an engineer with a background in aerospace and mechanical engineering, holding a B.S. in Engineering Science and an M.S. in Aerospace Engineering. My interests are centered around mechanical design, testing, and hands-on problem solving. I currently volunteer at a local science and history museum, where I am helping repair, redesign, and manufacture exhibits.
 
 I enjoy projects that combine analytical thinking with physical design and experimentation, particularly in aerospace, mechanical systems, and product development. This portfolio highlights some of the engineering projects I have developed to continue building practical experience and technical skills.
 
@@ -40,4 +38,3 @@ I enjoy projects that combine analytical thinking with physical design and exper
 # Projects
 - [Consumer Product Design Improvement - Mop Joint Redesign](projects/mop-redesign.md)
 - [Museum Exhibit - Water Cube Revamp](projects/water-cube.md)
-- [Rocket Launch & Trajectory Analysis](projects/rocket-trajectory.md)
