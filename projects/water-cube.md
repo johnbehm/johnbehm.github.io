@@ -1,10 +1,10 @@
 # Water Cube Exhibit Refurbishment and Redesign
-Dad, this is still a work in progress.
+
 ## Project Overview
 
-The Water Cube is a large interactive exhibit at the museum featuring eight user-controlled water jets inside a glass enclosure. Guests manipulate external handles to direct water streams onto wheels, levers, and musical elements, creating motion and sound.
+The Water Cube is a large interactive exhibit at the Fort Collins Museum of Discovery featuring eight user-controlled water jets inside a glass enclosure. Guests manipulate external handles to direct water streams onto wheels, levers, and musical elements, creating motion and sound.
 
-Originally inspired by a similar exhibit at the Pacific Science Center in Seattle, the Water Cube was installed when the museum opened in 2012. After more than a decade of continuous public use, the exhibit had developed several reliability and maintenance issues that negatively affected both visitor experience and staff workload.
+Originally inspired by a similar exhibit at the Pacific Science Center in Seattle, the Water Cube was installed in 2017. After nearly a decade of continuous use, the exhibit had developed several reliability and maintenance issues that negatively affected both visitor experience and staff workload.
 
 As part of a volunteer engineering team, I helped evaluate, redesign, and implement upgrades to improve the exhibit's performance, durability, and maintainability.
 
